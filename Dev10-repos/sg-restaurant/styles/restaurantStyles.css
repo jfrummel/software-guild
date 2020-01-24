@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.jumbo-header {
+  background-color: seashell;
+  text-align: center;
+  height: 130px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+
+#header-title {
+  font-family: "Bangers", cursive, sans-serif;
+}
+
+nav {
+  border-top: 1px darkgray solid;
+  border-bottom: 1px darkgray solid;
+}
+
+nav a {
+  margin: 10px 15px;
+  font-weight: normal;
+}
+
+nav a:link {
+  color: white;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+nav a:active {
+    color:darkorchid;
+}
+
+nav a:visited {
+  color: pink;
+}
+
+footer {
+  border-top: 1px darkgray solid;
+  text-align: center;
+  padding-top: 5px;
+}
+
+footer p {
+  margin-bottom: 4px;
+}

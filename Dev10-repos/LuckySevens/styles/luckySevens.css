@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 150px;
+  padding-top: 60px;
+}
+
+.game-title {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+label {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+input[type="number"] {
+  outline: none;
+  border-radius: 0;
+  border: 2px black solid;
+}
+
+#playButton {
+  font-size: 2em;
+  color: chartreuse;
+  background-color: black;
+  border: none;
+  padding: 15px 150px;
+  margin: 50px auto;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+hr {
+  width: 50%;
+  border: 3px black solid;
+}
+
+caption {
+  caption-side: top;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  color: black;
+}
+
+table,
+th,
+td {
+  border-collapse: collapse;
+  border: 3px black solid;
+  max-width: 600px;
+  margin: auto;
+}
+
+#firstRow {
+  background-color: #686464;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
